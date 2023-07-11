@@ -1,5 +1,4 @@
- /* 
- -- COMPANY 데이터베이스 생성
+  -- COMPANY 데이터베이스 생성
  DROP DATABASE  IF EXISTS COMPANY;
  CREATE DATABASE COMPANY;
  USE COMPANY;
@@ -36,5 +35,3 @@ INSERT INTO EMPLOYEE VALUES('3427', '최종철', '사원', '3011', 1500000, 3);
 INSERT INTO EMPLOYEE VALUES('1003', '조민희', '과장', '4377', 3000000, 2);
 INSERT INTO EMPLOYEE VALUES('2106', '김창섭', '대리', '1003', 2500000, 2);
 INSERT INTO EMPLOYEE VALUES('1365', '김상원', '사원', '3426', 1500000, 1);
-*/
-select cell(avg(salary)) as avgsal, max(salary) as maxsal from employee;
